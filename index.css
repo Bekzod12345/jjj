@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.box-rasm{
+    display: flex;
+    background-image: url(/images.jpg);
+    width: 1000px;
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30rem;
+}
+.box-yonbosh{
+    
+    width: 1000px;
+    height: 1000px;
+    justify-content: end;
+    margin-left: 1000px;
+    margin-top: -800px;
+
+}
+h1{
+    font-size: 50px;
+}
+.item{
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+    border-radius: 50%;
+}
+
+.item1{
+    margin-left: 100px;
+    margin-top: -88px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(104, 42, 165);
+    border-radius: 50%;
+}
+.item3{
+   margin-left: 200px;
+   margin-top: -68px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(9, 7, 11);
+    border-radius: 50%;
+}
+
+
+.container .item .item1 .item3{
+ display: flex;
+ justify-content: space-evenly;
+}
+input{
+    width: 100px;
+    height: 30px;
+}
+
+.z{
+    background-color: rgb(0, 255, 21);
+    color: aliceblue;
+    border: none;
+    width: 120px;
+    height: 30px;
+}
+.d{
+    margin-bottom: -29px;
+    margin-left: -70px;
+    font-size: 30px;
+}
+
+@media max-width:600px {
+      
+    .container{
+        width: 600px;
+    }
+}
+
+@media max-width:200px {
+      
+    .box-yonbosh{
+        width: 200px;
+    }
+}
+
+
+
+
+
+
+
+
